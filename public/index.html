@@ -12,29 +12,31 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	<title>Hello, world!</title>
+	<title>R3 Home</title>
 </head>
 <body>
 <div>
 <!-- Navbar -->
 	<nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
-	<ul class="navbar-nav">
-	    <li class="nav-item active">
-	      <a class="nav-link" href="#">Home</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" href="#">About</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" href="#">Projects</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link disabled" href="#">Sponsors</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link disabled" href="#">Contact Us</a>
-	    </li>
-	 </ul>
+		<ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">About</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Projects</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="#">Sponsors</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="#">Contact Us</a>
+			</li>
+		</ul>
+		<img src="./img/r3logo.jpg" class="img-fluid" style="max-height: 50px; float: left; position: absolute; left: 48%">
+
 	</nav>
 
 <!-- showcase -->
@@ -44,6 +46,7 @@
 	      <div class="title">
 	      	<i>
 	        RYERSON RAMS ROBOTICS
+			</i>
 	      </div>
 	    </div>
 	</header>
@@ -60,28 +63,28 @@
 		</div>
 	</div>
   <!-- Services -->
-<!--   <section class="services">
-    <div class="container grid-3 center">
-      <div>
-        <i class="fab fa-youtube fa-3x"></i>
-        <h3>YouTube</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>
-      </div>
-      <div>
-        <i class="fas fa-chalkboard-teacher fa-3x"></i>
-        <h3>Courses</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>
-      </div>
-      <div>
-        <i class="fas fa-briefcase fa-3x"></i>
-        <h3>Freelancing Projects</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>
-      </div>
-    </div>
-  </section>
- -->
+ <!--<section class="services">-->
+    <!--<div class="container grid-3 center">-->
+      <!--<div>-->
+        <!--<i class="fab fa-youtube fa-3x"></i>-->
+        <!--<h3>YouTube</h3>-->
+        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>-->
+      <!--</div>-->
+      <!--<div>-->
+        <!--<i class="fas fa-chalkboard-teacher fa-3x"></i>-->
+        <!--<h3>Courses</h3>-->
+        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>-->
+      <!--</div>-->
+      <!--<div>-->
+        <!--<i class="fas fa-briefcase fa-3x"></i>-->
+        <!--<h3>Freelancing Projects</h3>-->
+        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reiciendis!</p>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</section>-->
 
-	<div class="sponsors">
+
+	<div class="container sponsors">
 		<h1 class="text-center">Our Sponsors</h1>
 		<hr />
 		<div class="row">
@@ -123,36 +126,41 @@
 		<br>
 		<br>
 		<div class="row">
-			<div class="col-md-3 col-xs-12">
 
+			<div class="col-md-3 col-xs-12">
+				<img src="./img/viking_logo.png" class="img-fluid rounded mx-auto d-block" style="max-height: 125px">
 			</div>
 			<div class="col-md-3 col-xs-12">
-				<img src="./img/cti_logo.png" class="img-fluid rounded mx-auto d-block"  style="max-height: 100px">
+				<img src="./img/cti_logo.png" class="img-fluid rounded mx-auto d-block"  style="max-height: 125px">
 			</div>
 			<div class="col-md-3 col-xs-12">
 				<img src="./img/dropbox_logo.png" class="img-fluid rounded mx-auto d-block"  style="max-height: 125px">
 			</div>
 			<div class="col-md-3 col-xs-12">
 				<img src="./img/SOLIDWORKS.png" class="img-fluid rounded mx-auto d-block"  style="max-height: 125px">
+
 			</div>
 		</div>
 		<br>
 		<br>
 		<h6 class="text-center">If you would like to sponsor <span style="color: red">Ryerson Rams Robotics</span>, please email us at <span style="color: red">r3@ryerson.ca</span>!</h6>
-		<br>
+		
 	</div>
 	<div class="contact bg-dark">
-		<h1 class="text-light text-center">Contact Us</h1>
-		<hr />
-		<div class="row">
+		<div class="container p-0">
+			<h2 class="text-light text-center">Contact Us</h2>
+			<hr />
+			<div class="row">
 			<span style="margin: auto">
 				<span><a id="facebook" onmouseenter='this.style.color="#3B5998"' onmouseleave='this.style.color="white"' href="https://www.facebook.com/RyersonR3/" style="color: white"><ion-icon size="large" name="logo-facebook"> </ion-icon></a></span>
 				<span><a id="twitter" onmouseenter='this.style.color="#1DA1F2"' onmouseleave='this.style.color="white"' href="https://twitter.com/ryersonr3" style="color: white"><ion-icon size="large" name="logo-twitter"> </ion-icon></a></span>
 				<span><a id="youtube" onmouseenter='this.style.color="#c4302b"' onmouseleave='this.style.color="white"' href="https://www.youtube.com/channel/UCZxa-wagB9MAuRslcMBMkJQ/" style="color: white"><ion-icon size="large" name="logo-youtube"> </ion-icon></a></span>
-				<span style="color: white"><ion-icon size="large" name="mail" onmouseenter='this.style.color="#0099ff"' onmouseleave='this.style.color="white"'></ion-icon></span>
+				<span><a id="email" onmouseenter='this.style.color="yellow"' onmouseleave='this.style.color="white"'><ion-icon size="large" name="mail"></ion-icon></a></span>
 			</span>
+			</div>
+			<p class="text-light text-center">© 2018 All Rights Reserved.</p>
 		</div>
-		<p class="text-light text-center">© 2018 All Rights Reserved.</p>
+
 	</div>
 
 </div>
