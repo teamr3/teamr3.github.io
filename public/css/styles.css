@@ -67,27 +67,61 @@ body {
   overflow: hidden;
   padding: 4rem 1rem;
 }
-
-.carousel-inner > .carousel-item  {
-  width:640px;
-  height:360px;
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
 }
 
-.grid-3 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+.navbar-toggler:focus {
+  outline: none;
+  background: transparent !important;
 }
 
-.grid-2 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
+.navbar-toggler .icon-bar {
+  background-color: #fff;
+  transform: rotate(0deg) translate(0px, 0px);
+  transition: ease all .2s;
 }
 
-.center {
-  text-align: center;
-  margin: auto;
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+
+.icon-bar:nth-child(2) {
+  width: 16px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:hover>.icon-bar:nth-child(2) {
+  width: 22px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:active>.icon-bar:nth-child(2) {
+  width: 22px;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 4px);
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  transition: ease all .2s;
+}
+
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+  transition: ease all .2s;
 }
 
 .bg-light {
@@ -98,45 +132,6 @@ body {
 .bg-dark {
   background: #333;
   color: #f4f4f4;
-}
-
-footer {
-  padding: 2.2rem;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Small Screens */
-@media (max-width: 560px) {
-  .showcase::after {
-    height: 50vh;
-  }
-
-  .content {
-    top: 5%;
-    margin-top: 5px;
-  }
-
-  .content .logo {
-    height: 140px;
-    width: 140px;
-  }
-
-  .content .text {
-    display: none;
-  }
-
-  .grid-3,
-  .grid-2 {
-    grid-template-columns: 1fr;
-  }
-
-  .services div {
-    border-bottom: #333 dashed 1px;
-    padding: 1.2rem 1rem;
-  }
 }
 
 /* Landscape */
