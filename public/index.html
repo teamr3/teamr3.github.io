@@ -19,29 +19,37 @@
 <div>
 
 <!-- Navbar -->
+	<nav id="nav-main" style="min-height: 55px" class="navbar fixed-top bg-dark navbar-expand-sm navbar-dark">
+		<span onclick="openMenu()">
+            <span id="arrowUp" style="display: none"><ion-icon size="large" name="arrow-dropup"></ion-icon></span>
+            <span id="arrowDown"><ion-icon size="large" name="arrow-dropdown"></ion-icon></span>
+        </span>
 
-	<nav id="nav-main" class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
-
-		<ul class="navbar-nav">
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#about">About</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#projects">Projects</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#sponsors">Sponsors</a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link" href="#contact" style="transition:2s;">Contact Us</a>
-			</li>
-		</ul>
 		<img src="./img/r3logo.jpg" class="img-fluid" style="max-height: 50px; float: left; position: absolute; left: 48%">
 
+
 	</nav>
+	<nav id="menu" class="navbar fixed-top navbar-expand-sm navbar-dark" style="display:none; background-color: #22272d; margin-top: 55px; transition: 2s">
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="#" onclick="openMenu()">Home</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#about" onclick="openMenu()">About</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#projects" onclick="openMenu()">Projects</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#sponsors" onclick="openMenu()">Sponsors</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#contact" onclick="openMenu()">Contact Us</a>
+		</li>
+		</ul>
+	</nav>
+
+
 <!-- Navigation -->
 
 <!-- showcase -->
@@ -69,6 +77,7 @@
 	</div>
 <!-- Projects -->
 	<div id="projects" class="container">
+        <br>
 		<h1 class="text-center">Our Projects</h1>
 		<div class="card-deck">
 		  <div class="card">
@@ -190,5 +199,26 @@
 </div>
 
 <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+<script>
+	function openMenu() {
+		var menu = document.getElementById('menu');
+		var dropUp = document.getElementById('arrowUp');
+		var dropDown = document.getElementById('arrowDown');
+
+        if (menu.style.display === "none") {
+            menu.style.display = "block";
+            dropUp.style.display = 'block';
+            dropDown.style.display = 'none';
+        }
+        else {
+            menu.style.display = "none";
+            dropUp.style.display = 'none';
+            dropDown.style.display = 'block';
+        }
+
+
+
+	}
+</script>
 </body>
 </html>
