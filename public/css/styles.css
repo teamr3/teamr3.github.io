@@ -16,19 +16,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   transition: all 1000ms;
 }
 
 .showcase:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-.showcase:hover .content {
   filter: blur(1px);
   -webkit-filter: blur(1px);
+}
+
+.showcase:hover::hover .content {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 
 .content {
