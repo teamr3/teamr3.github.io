@@ -10,7 +10,6 @@ body {
   content: '';
   height: 100vh;
   width: 100%;
-
   background-image: url("../img/urc2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,13 +21,12 @@ body {
 }
 
 .showcase:hover::after {
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
-.showcase:hover::hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+.showcase:hover .content {
+
 }
 
 .content {
