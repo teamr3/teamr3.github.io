@@ -65,13 +65,14 @@
 	</header>
 
 <!-- About us -->
-	<div id="about">
-		<div class="jumbotron-fluid jumbotron">
-			<div class="container">
+	<div id="about" class="container">
+		<div class=" jumbotron"style="width:100%;height:550px;">
 			<h1 class="text-center">About Us</h1>
-			
-			<p class="about-text"><img src="./img/urc3.jpg" style="float: right; width: 35%;"/>Established in 2013, Ryerson Rams Robotics-better known as R3-was created with the intent to promote and enhance robotics education for Ryerson students.  R3 achieves this by not only competing in one event, but rather several robotics competitions with varying difficulties. This is very unique at Ryerson as many design teams compete in a single event, and often will take the name of that event as their team name. In contrast, Ryerson Rams Robotics would partake in multiple competitions allowing students to hone their skills in easier competitions and work their way up to more advanced robotics.</p>
-			</div>
+			<br>
+			<br>
+			<img src="./img/urc3.jpg" style="float: right; width: 45%; padding-left:5%;"/>
+			<p class="about-text">Established in 2013, Ryerson Rams Robotics-better known as R3-was created with the intent to promote and enhance robotics education for Ryerson students.  R3 achieves this by not only competing in one event, but rather several robotics competitions with varying difficulties. This is very unique at Ryerson as many design teams compete in a single event, and often will take the name of that event as their team name. In contrast, Ryerson Rams Robotics would partake in multiple competitions allowing students to hone their skills in easier competitions and work their way up to more advanced robotics.</p>
+			<br>
 		</div>
 
 	</div>
@@ -79,6 +80,9 @@
 	<div id="projects" class="container">
         <br>
 		<h1 class="text-center">Our Projects</h1>
+		<br>
+		<br>
+		<br>
 		<div class="card-deck">
 		  <div class="card">
 		    <img class="card-img-top" src="./img/vexworking4.jpg" alt="Card image cap" style="height: 180px; background-position: center; object-fit:cover;">
@@ -109,7 +113,7 @@
 		    <div class="card-body">
 		      <h5 class="card-title">RamsBot</h5>
 		      <p class="card-text">
-RamsBot is a basketball shooting robot that is capable of scoring baskets from almost anywhere on the offensive end of the court, specializing in shots from the free throw and three point lines, as well all the way back to half court. It was created in partnership with the Faculty of Engineering and Architectural Science Dean’s Office to showcase Ryerson, and engineering as a whole to the general public. So far it has been on national television, at professional basketball games, as well as STEM events all over the city.</p>
+			  RamsBot is a basketball shooting robot that is capable of scoring baskets from almost anywhere on the offensive end of the court, specializing in shots from the free throw and three point lines, as well all the way back to half court. It was created in partnership with the Faculty of Engineering and Architectural Science Dean’s Office to showcase Ryerson, and engineering as a whole to the general public. So far it has been on national television, at professional basketball games, as well as STEM events all over the city.</p>
 		      <p class="card-text"><small class="text-muted"></small></p>
 		    </div>
 		  </div>
@@ -177,19 +181,18 @@ RamsBot is a basketball shooting robot that is capable of scoring baskets from a
 		</div>
 		<br>
 		<br>
-		<h6 class="text-center">If you would like to sponsor <span style="color: red">Ryerson Rams Robotics</span>, please email us at <span style="color: red">r3@ryerson.ca</span>!</h6>
+		<h6 class="text-center">If you would like to sponsor <a href="mailto:r3@ryerson.ca?subject=Let's Chat!"style="color: red">Ryerson Rams Robotics</a>, please email us at <a href="mailto:r3@ryerson.ca?subject=Let's Chat!" style="color: red">r3@ryerson.ca</a>!</h6>
 		
 	</div>
 	<div id ="contact" class="bg-dark">
 		<div class="container p-0">
 			<h2 class="text-light text-center">Contact Us</h2>
-			<hr />
 			<div class="row">
 			<span style="margin: auto">
 				<span><a id="facebook" onmouseenter='this.style.color="#3B5998"' onmouseleave='this.style.color="white"' href="https://www.facebook.com/RyersonR3/" style="color: white"><ion-icon size="large" name="logo-facebook"> </ion-icon></a></span>
 				<span><a id="twitter" onmouseenter='this.style.color="#1DA1F2"' onmouseleave='this.style.color="white"' href="https://twitter.com/ryersonr3" style="color: white"><ion-icon size="large" name="logo-twitter"> </ion-icon></a></span>
 				<span><a id="youtube" onmouseenter='this.style.color="#c4302b"' onmouseleave='this.style.color="white"' href="https://www.youtube.com/channel/UCZxa-wagB9MAuRslcMBMkJQ/" style="color: white"><ion-icon size="large" name="logo-youtube"> </ion-icon></a></span>
-				<span><a href="mailto:r3@ryerson.ca?subject=Let's Chat!" id="email" onmouseenter='this.style.color="yellow"' onmouseleave='this.style.color="white"'><ion-icon size="large" name="mail"></ion-icon></a></span>
+				<span><a href="mailto:r3@ryerson.ca?subject=Let's Chat!" id="email" onmouseenter='this.style.color="green"' onmouseleave='this.style.color="white"'style="color: white"><ion-icon size="large" name="mail"></ion-icon></a></span>
 			</span>
 			</div>
 			<p class="text-light text-center">© 2018 All Rights Reserved.</p>
@@ -199,13 +202,12 @@ RamsBot is a basketball shooting robot that is capable of scoring baskets from a
 
 </div>
 
-<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js" style=""></script>
 <script>
 	function openMenu() {
 		var menu = document.getElementById('menu');
 		var dropUp = document.getElementById('arrowUp');
 		var dropDown = document.getElementById('arrowDown');
-
         if (menu.style.display === "none") {
             menu.style.display = "block";
             dropUp.style.display = 'block';
