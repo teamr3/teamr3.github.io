@@ -9,7 +9,3 @@ rank: 1
 ---
 
 VexU acts as a R3’s introductory platform, the challenges presented within the Vex competition are much simpler compared to those associated with the Rover or Sub. We take advantage of having a platform like Vex to teach students important engineering skills like electrical and mechanical CAD software, the best practices and industry tools for programming, high level design and control concepts, all skills required to tackle out other engineering challenges. 
-
-(Add a video from the vex competition)
-
-(Add a handful of photos of the vex team from this year and previous, as well as robots from previous years, maybe like an album style thing)
