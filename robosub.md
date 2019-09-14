@@ -20,4 +20,4 @@ Felix’s control system also features a very sophisticated control algorithm, r
 
 We are very happy to announce that all of our work went into achieving a score of 18th in our first year at the RoboNation RoboSub competition.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4EaoVBWqIN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/4EaoVBWqIN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

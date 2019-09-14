@@ -16,4 +16,4 @@ What makes Navi's control system different from previous years is the increased 
 
 Implementing and developing this rover concept and design over the past three years, paired with the amazing students we have working on this project have allowed us the ability to place 2nd  in the 2019 competition and will continue to develop high level rovers.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HChMw8dtmZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HChMw8dtmZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
