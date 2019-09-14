@@ -15,3 +15,5 @@ R3 has been developing and testing mars rovers for the University Rover Challeng
 What makes Navi's control system different from previous years is the increased focus on design simplicity. Navi’s on communications protocols have been changed to utilize more open source software, allowing our students to focus more on testing and low level design. The rover also implements a unique autonomous system, Navi utilizes a YOLO V3 algorithm for image detection and avoidance, paired with a GPS and IMU for global path planning. 
 
 Implementing and developing this rover concept and design over the past three years, paired with the amazing students we have working on this project have allowed us the ability to place 2nd  in the 2019 competition and will continue to develop high level rovers.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HChMw8dtmZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

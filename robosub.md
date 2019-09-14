@@ -19,3 +19,5 @@ The large aluminum wings serve two purposes; to hold the thrusters in place and,
 Felix’s control system also features a very sophisticated control algorithm, responsible for handling tasks such as generating inputs for the cascaded PID to output to the thrusters or running the YOLO V3 neural network which we trained to detect the gate, buoys, and other competitions objectives. 
 
 We are very happy to announce that all of our work went into achieving a score of 18th in our first year at the RoboNation RoboSub competition.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4EaoVBWqIN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
