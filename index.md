@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Welcome to Ryerson Rams Robotics'
+landing-title: 'WELCOME TO RYERSON RAMS ROBOTICS'
 description: null
 image: null
 author: null
