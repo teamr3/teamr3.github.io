@@ -12,7 +12,7 @@ show_tile: false
 
 ![RESS](assets/images/sponsors/ress_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![Ryerson](assets/images/sponsors/ru_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![RSS](assets/images/sponsors/rss_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
 
-![Diescan](assets/images/sponsors/diescan_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![FOS](assets/images/sponsors/fos_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
+![Diescan](assets/images/sponsors/diescan_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 25px 25px 25px 25px;"}    ![FOS](assets/images/sponsors/fos_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
 
 ![Protocase](assets/images/sponsors/protocase_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![Nvidia](assets/images/sponsors/nvidia_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![FEAS](assets/images/sponsors/feas_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
 
