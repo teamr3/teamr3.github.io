@@ -12,11 +12,11 @@ show_tile: false
 
 ![RESS](assets/images/sponsors/ress_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![Ryerson](assets/images/sponsors/ru_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![RSS](assets/images/sponsors/rss_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
 
-![Diescan](assets/images/sponsors/diescan_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 25px 25px 25px 25px;"}    ![FOS](assets/images/sponsors/fos_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
+![Diescan](assets/images/sponsors/diescan_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![FOS](assets/images/sponsors/fos_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
 
-![Protocase](assets/images/sponsors/protocase_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![Nvidia](assets/images/sponsors/nvidia_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![FEAS](assets/images/sponsors/feas_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
+![Protocase](assets/images/sponsors/protocase_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![Nvidia](assets/images/sponsors/nvidia_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![FEAS](assets/images/sponsors/feas_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
 
-![Viking](assets/images/sponsors/viking_logo.svg){: style="vertical-align: middle; width: 3cm;"}    ![Connect Tech](assets/images/sponsors/cti_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![Dropbox](assets/images/sponsors/dropbox_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![SolidWorks](assets/images/sponsors/solidworks_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
+![Viking](assets/images/sponsors/viking_logo.svg){: style="vertical-align: middle; width: 3cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![Connect Tech](assets/images/sponsors/cti_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![Dropbox](assets/images/sponsors/dropbox_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![SolidWorks](assets/images/sponsors/solidworks_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
 
 {% comment %}
 <section class="tiles">
