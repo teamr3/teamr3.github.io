@@ -20,28 +20,29 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Anton', sans-serif),
+		family-fixed:		('Open Sans', sans-serif),
 		weight:				300,
-		weight-bold:		600,
+		weight-bold:		400,
 		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
+		letter-spacing-alt:	0.025em
 	);
 
 // Palette.
 	$palette: (
-		bg:				#778899,
+		bg:				#B9C1C9,
 		bg-alt:				#000000,
 		fg:				#ffffff,
+		fg-alt:     #000000,
 		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#ff9494,
-		accent1:			#DF3F2A,
-		accent2:			#4D4D4D,
-		accent3:			#737373,
-		accent4:			#DB2800,
-		accent5:			#FF401A,
-		accent6:			#333333
+		fg-light:			rgba(255,255,255,0.4),
+		border:				rgba(255,255,255,0.3),
+		border-bg:			rgba(2255,255,255,0.3),
+		highlight:			#EF7B6E,
+		accent1:			#EC222A,
+		accent2:			#676562,
+		accent3:			#B9C1C9,
+		accent4:			#EF7B6E,
+		accent5:			#EC222A,
+		accent6:			#676562
 	);
