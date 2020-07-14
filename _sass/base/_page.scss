@@ -16,6 +16,22 @@
 			-ms-overflow-style: scrollbar;
 		}
 
+	// Ensures embedded videos expand to width of container and maintain 16:9 aspect ratio.
+		.videoWrapper {
+		  position: relative;
+		  padding-bottom: 56.25%;
+		  margin-top: 0.25cm;
+		  margin-bottom: 0.25cm;
+		  height: 0;
+		}
+		.videoWrapper iframe {
+		  position: absolute;
+		  top: 5%;
+		  left: 5%;
+		  width: 90%;
+		  height: 90%;
+		}
+
 	// Ensures page width is always >=320px.
 		@include breakpoint(xsmall) {
 			html, body {

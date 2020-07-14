@@ -2,31 +2,31 @@
 title: Team R3
 subtitle: Ryerson Rams Robotics
 email: r3@ryerson.ca
-description: R3 is Ryerson University's multidisciplinary robotics collective, with teams for every skill level.
+description: R3 is Ryerson University’s multidisciplinary robotics collective.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 43 Gerrard Street East
 city: Toronto
 state: Ontario
-zip_code: 
+zip_code: M5G 2A7
 country: Canada
-phone: 
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 
 # social settings
 500px_url:
-facebook_url:
+facebook_url: https://www.facebook.com/RyersonR3/
 github_url:
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/ryersonramsrobotics/?hl=en
+linkedin_url: https://www.linkedin.com/company/ryersonr3/
 pinterest_url:
 slack_url:
-twitter_url: 
+twitter_url: https://twitter.com/ryersonr3?lang=en
 
 # build settings
 markdown: kramdown
