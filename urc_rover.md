@@ -14,7 +14,7 @@ rank: 1
 		<div class="content" style="width:100%;">
 			<div class="inner">
 				<p>
-					R3 has been developing and testing mars rovers for the University Rover Challenge for the past three years with the original aim of placing in the top 5. Since our original entry, we have placed 21st in our first year (2017), 15th in our second year (2018) and 2nd  in the 2019 competition. The current goals are to continue to develop high scoring rovers in the hopes of winning the competition, and to be a regular podium contender.
+					R3 has been developing and testing Mars rovers for the University Rover Challenge for the past three years with the original aim of placing in the top 5. Since our original entry, we have placed 21st in our first year (2017), 15th in our second year (2018) and 2nd in the 2019 competition. The current goals are to continue to develop high scoring rovers in the hopes of winning the competition, and to be a regular podium contender.
 				</p>
 			</div>
 		</div>

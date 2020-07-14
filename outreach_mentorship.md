@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Special Projects
+title: Outreach and Mentorship
 description: Training the next generation of robotics enthusiasts.
 image: assets/images/outreachbanner.jpg
 nav-menu: true

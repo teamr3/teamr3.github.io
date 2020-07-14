@@ -38,7 +38,7 @@ rank: 2
 		<div class="content">
 			<div class="inner">
         <p>
-          Felix’s control system is one of the most advanced that R3 has developed. Navigation and object detection are run on an Nvidia Jetson TX2, paired with STM32 microcontrollers for high speed I/O for sensor data collection and thruster control. The microcontrollers are mounted onto custom shield boards with the power, signal processing, and low-level communication hardware. It also features a very sophisticated control algorithm, responsible for handling tasks such as generating inputs for the cascaded PID to output to the thrusters or running the YOLO V3 neural network which we trained to detect the gate, buoys, and other competitions objectives
+          Felix’s control system is one of the most advanced that R3 has developed. Felix runs its navigation and object detection on a Nvidia Jetson TX2, paired with STM32 microcontrollers for high speed I/O for sensor data collection and thruster control. The microcontrollers are mounted onto custom shield boards with the power, signal processing, and low-level communication hardware. It also features a very sophisticated control algorithm, responsible for handling tasks such as generating inputs for the cascaded PID to output to the thrusters or running the YOLO V3 neural network which we trained to detect the gate, buoys, and other competitions objectives.
         </p>
 			</div>
 		</div>
