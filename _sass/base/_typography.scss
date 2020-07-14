@@ -4,6 +4,26 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+@font-face{
+	font-family:'Anton';
+	src:url('../../assets/fonts/anton-v11-latin-regular.eot');
+	src:url('../../assets/fonts/anton-v11-latin-regular.eot') format('embedded-opentype'),
+	url('../../assets/fonts/anton-v11-latin-regular.woff2') format('woff2'),
+	url('../../assets/fonts/anton-v11-latin-regular.woff') format('woff'),
+	url('../../assets/fonts/anton-v11-latin-regular.ttf') format('truetype'),
+	url('../../assets/fonts/anton-v11-latin-regular.svg') format('svg');
+}
+
+@font-face{
+	font-family:'Open Sans';
+	src:url('../../assets/fonts/open-sans-v17-latin-regular.eot');
+	src:url('../../assets/fonts/open-sans-v17-latin-regular.eot') format('embedded-opentype'),
+	url('../../assets/fonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+	url('../../assets/fonts/open-sans-v17-latin-regular.woff') format('woff'),
+	url('../../assets/fonts/open-sans-v17-latin-regular.ttf') format('truetype'),
+	url('../../assets/fonts/open-sans-v17-latin-regular.svg') format('svg');
+}
+
 /* Type */
 
 	body, input, select {
