@@ -22,11 +22,12 @@ facebook_url: https://www.facebook.com/RyersonR3/
 github_url:
 gitlab_url:
 googleplus_url:
-instagram_url: https://www.instagram.com/ryersonramsrobotics/?hl=en
+instagram_url: https://www.instagram.com/ryersonramsrobotics/
 linkedin_url: https://www.linkedin.com/company/ryersonr3/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/ryersonr3?lang=en
+twitter_url: https://twitter.com/ryersonr3
+youtube_url: https://www.youtube.com/channel/UCZxa-wagB9MAuRslcMBMkJQ
 
 # build settings
 markdown: kramdown
