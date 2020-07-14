@@ -6,7 +6,7 @@
 
 /* Type */
 
-	body, input, select, textarea {
+	body, input, select {
 		color: _palette(fg);
 		font-family: _font(family);
 		font-size: 17pt;
@@ -55,13 +55,16 @@
 		font-style: italic;
 	}
 
-	p {
+	p, textarea {
 		margin: 0 0 _size(element-margin) 0;
+		font-family: _font(family-fixed)
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
+		color: _palette(fg);
+		font-weight: _font(weight);
+		text-transform: uppercase;
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 

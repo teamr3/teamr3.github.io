@@ -16,7 +16,8 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			background-color: _palette(bg-dark);
+			color: _palette(fg);
 
 			> .image {
 				background-position: center center;
@@ -60,11 +61,30 @@
 				}
 			}
 
+			> .content-noimage {
+				@include vendor('display', 'flex');
+				@include vendor('flex-direction', 'column');
+				@include vendor('justify-content', 'center');
+				@include vendor('align-items', 'center');
+				@include padding(2em, 3em);
+				width: 100%;
+
+				> .inner {
+					margin: 0 0;
+					max-width: 100%;
+				}
+			}
+
 			&:nth-child(2n) {
 				@include vendor('flex-direction', 'row-reverse');
-				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
+				background-color: _palette(bg);
+				color: _palette(fg-alt);
 
 				> .content {
+					@include vendor('align-items', 'flex-end');
+				}
+
+				> .content-noimage {
 					@include vendor('align-items', 'flex-end');
 				}
 			}

@@ -1,22 +1,32 @@
 ---
 layout: home
 title: Home
-landing-title: 'WELCOME TO RYERSON RAMS ROBOTICS'
+landing-title: '<div style="opacity: 60%">WE ARE</div>RYERSON RAMS ROBOTICS'
 description: null
 image: null
 author: null
 show_tile: false
 ---
+<style>
+  .sponsorLogo {
+    vertical-align: middle;
+    max-width: 7.5cm;
+    max-height: 3cm;
+    padding: 0.25cm 0.25cm 0.25cm 0.25cm;
+  }
+</style>
+
 <br />
-<h1>Thank you to our generous sponsors!</h1>
 
-![RESS](assets/images/sponsors/ress_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}    ![Ryerson](assets/images/sponsors/ru_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}   ![RSS](assets/images/sponsors/rss_logo.svg){: style="vertical-align: middle; width: 7.5cm;"}
+<h1 style="vertical-align: middle; color:#000000;">Thank you to our generous sponsors!</h1>
 
-![Diescan](assets/images/sponsors/diescan_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![FOS](assets/images/sponsors/fos_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
+![RESS](assets/images/sponsors/ress_logo.svg){: class="sponsorLogo"}    ![Ryerson](assets/images/sponsors/ru_logo.svg){: class="sponsorLogo"}   ![RSS](assets/images/sponsors/rss_logo_alt.svg){: class="sponsorLogo"}
 
-![Protocase](assets/images/sponsors/protocase_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![Nvidia](assets/images/sponsors/nvidia_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![FEAS](assets/images/sponsors/feas_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
+![Diescan](assets/images/sponsors/diescan_logo.svg){: class="sponsorLogo"}    ![FOS](assets/images/sponsors/fos_logo.svg){: class="sponsorLogo"}    ![NeuronicWorks](assets/images/sponsors/neuronicworks_logo.svg){: class="sponsorLogo"}
 
-![Viking](assets/images/sponsors/viking_logo.svg){: style="vertical-align: middle; width: 3cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}    ![Connect Tech](assets/images/sponsors/cti_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![Dropbox](assets/images/sponsors/dropbox_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}   ![SolidWorks](assets/images/sponsors/solidworks_logo.svg){: style="vertical-align: middle; width: 7.5cm; padding: 0.25cm 0.25cm 0.25cm 0.25cm;"}
+![Protocase](assets/images/sponsors/protocase_logo.svg){: class="sponsorLogo"}    ![Nvidia](assets/images/sponsors/nvidia_logo.svg){: class="sponsorLogo"}   ![FEAS](assets/images/sponsors/feas_logo.svg){: class="sponsorLogo"}
+
+![Viking](assets/images/sponsors/viking_logo.svg){: class="sponsorLogo"}    ![Connect Tech](assets/images/sponsors/cti_logo.svg){: class="sponsorLogo"}   ![Dropbox](assets/images/sponsors/dropbox_logo.svg){: class="sponsorLogo"}   ![SolidWorks](assets/images/sponsors/solidworks_logo.svg){: class="sponsorLogo"}
 
 {% comment %}
 <section class="tiles">
